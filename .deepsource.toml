@@ -39,6 +39,16 @@ name = "php"
 [[analyzers]]
 name = "javascript"
 
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue",
+    "angularjs",
+    "ember",
+    "meteor",
+    "angular"
+  ]
+
 [[analyzers]]
 name = "java"
 
@@ -62,3 +72,36 @@ name = "cxx"
 
 [[analyzers]]
 name = "ansible"
+
+[[transformers]]
+name = "rustfmt"
+
+[[transformers]]
+name = "scalafmt"
+
+[[transformers]]
+name = "rubocop"
+
+[[transformers]]
+name = "standardrb"
+
+[[transformers]]
+name = "black"
+
+[[transformers]]
+name = "autopep8"
+
+[[transformers]]
+name = "yapf"
+
+[[transformers]]
+name = "isort"
+
+[[transformers]]
+name = "php-cs-fixer"
+
+[[transformers]]
+name = "dotnet-format"
+
+[[transformers]]
+name = "clang-format"
