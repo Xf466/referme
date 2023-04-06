@@ -1,0 +1,32 @@
+name: referme
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  json_theme: 4.0.1+2
+  flutter_secure_storage: 6.0.0
+  dio: 4.0.6
+  file_picker: 5.2.0+1
+  flutter_stripe: 5.1.0
+  http_parser:
+  flutter: 
+    sdk: flutter
+  rating_dialog: ^2.0.4
+  flutter_cached_pdfview: ^0.4.1
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/img/
+  uses-material-design: true
+
