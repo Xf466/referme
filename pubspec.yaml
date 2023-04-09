@@ -10,7 +10,7 @@ dependencies:
   get: 4.6.5
   json_theme: 4.0.1+2
   flutter_secure_storage: 6.0.0
-  dio: 4.0.6
+  dio: ^5.1.1
   file_picker: 5.2.0+1
   flutter_stripe: 5.1.0
   http_parser:
